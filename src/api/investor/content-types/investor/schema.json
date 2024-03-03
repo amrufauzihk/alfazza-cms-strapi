@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "investors",
+  "info": {
+    "singularName": "investor",
+    "pluralName": "investors",
+    "displayName": "Investor"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "invest_date": {
+      "type": "date"
+    },
+    "investor_name": {
+      "type": "string"
+    },
+    "total_invesment": {
+      "type": "float"
+    },
+    "percentage": {
+      "type": "float"
+    }
+  }
+}

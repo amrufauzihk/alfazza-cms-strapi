@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "expenses",
+  "info": {
+    "singularName": "expense",
+    "pluralName": "expenses",
+    "displayName": "Expense"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "transaction_date": {
+      "type": "date"
+    },
+    "payment_type": {
+      "type": "string"
+    },
+    "total_payment": {
+      "type": "float"
+    },
+    "remark": {
+      "type": "text"
+    }
+  }
+}

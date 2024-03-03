@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "purchase_supplies",
+  "info": {
+    "singularName": "purchase-supply",
+    "pluralName": "purchase-supplies",
+    "displayName": "Purchase Supply"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "transaction_date": {
+      "type": "date"
+    },
+    "category_product": {
+      "type": "string"
+    },
+    "brand": {
+      "type": "string"
+    },
+    "product": {
+      "type": "string"
+    },
+    "price": {
+      "type": "float"
+    }
+  }
+}

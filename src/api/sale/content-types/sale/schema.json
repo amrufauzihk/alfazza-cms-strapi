@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sales",
+  "info": {
+    "singularName": "sale",
+    "pluralName": "sales",
+    "displayName": "Sales",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "transaction_date": {
+      "type": "date"
+    },
+    "contract_number": {
+      "type": "string"
+    },
+    "down_payment": {
+      "type": "float"
+    },
+    "tenor": {
+      "type": "integer"
+    },
+    "monthly_installments": {
+      "type": "float"
+    },
+    "total_receivables": {
+      "type": "float"
+    },
+    "total_sales": {
+      "type": "float"
+    },
+    "discount": {
+      "type": "float"
+    },
+    "sales_intensive": {
+      "type": "integer"
+    },
+    "customer_name": {
+      "type": "string"
+    },
+    "customer_address": {
+      "type": "string"
+    },
+    "customer_phone_number": {
+      "type": "string"
+    }
+  }
+}

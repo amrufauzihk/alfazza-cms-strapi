@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "receipts",
+  "info": {
+    "singularName": "receipt",
+    "pluralName": "receipts",
+    "displayName": "Receipt"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "transaction_date": {
+      "type": "date"
+    },
+    "receiptions_type": {
+      "type": "string"
+    },
+    "customer_name": {
+      "type": "string"
+    },
+    "sale_id": {
+      "type": "uid",
+      "targetField": "receiptions_type"
+    },
+    "monthly_installments": {
+      "type": "date"
+    },
+    "economic_life": {
+      "type": "float"
+    },
+    "remark": {
+      "type": "text"
+    }
+  }
+}

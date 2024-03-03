@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "purchase_inventories",
+  "info": {
+    "singularName": "purchase-inventory",
+    "pluralName": "purchase-inventories",
+    "displayName": "Purchase Inventory"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "transaction_date": {
+      "type": "date"
+    },
+    "category_product": {
+      "type": "string"
+    },
+    "brand": {
+      "type": "string"
+    },
+    "product": {
+      "type": "string"
+    },
+    "price": {
+      "type": "float"
+    },
+    "discount": {
+      "type": "float"
+    }
+  }
+}
